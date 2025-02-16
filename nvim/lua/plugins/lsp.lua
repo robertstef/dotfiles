@@ -73,7 +73,8 @@ return {
                     'bashls',
                     'jedi_language_server',
                     'lua_ls',
-                    'ruff'
+                    'ruff',
+                    'debugpy'
                 },
 
                 -- auto-install configured servers
