@@ -74,7 +74,6 @@ return {
                     'jedi_language_server',
                     'lua_ls',
                     'ruff',
-                    'debugpy'
                 },
 
                 -- auto-install configured servers
