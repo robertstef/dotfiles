@@ -63,10 +63,19 @@ return {
         version = '^1.0.0'
     },
 
-                -- auto-install configured servers
-                automatic_installation = true,
-            })
-        end,
+    -- Mason LSP Config
+    {
+        'mason-org/mason-lspconfig.nvim',
+        opts = {
+            ensure_installed = {
+                'clangd',
+                'bashls',
+                'jedi_language_server',
+                'lua_ls',
+                'ruff',
+            }
+        },
+        version = '^1.0.0'
     },
 
     -- lspconfig
